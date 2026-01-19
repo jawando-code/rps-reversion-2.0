@@ -3,22 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
+    <title>"rock, paper, scissors"</title>
     <link rel="stylesheet" href="/rps.css"></link>
 </head>
 <body>
-    <div class="rounds">Round:</div>
-    
-    <div class="button-container">  
-        <div class="choice">
-            <button class="buttons" value="rock"id="rock">  rock  </button>
-            <button class="buttons" value="paper"id="paper">paper</button>
-            <button class="buttons"value="scissors" id="scissors">scissors</button>
+
+        <p>rock, paper, scissors </p>
+        <div class="rounds"></div>
+        <div class="stats">
+            <div class="computerScore"></div>
+            <div class="humanScore"></div>
         </div>
-        <div id="new-round">
-            <button id='newround'>new round</button>
-         </div>
-        </div>
-<script src="rps.js"></script>        
+            <div class="message"></div>
+            <div class ="container">
+                
+                <div class="display"></div>
+            </div>    
+             <p>Select your weapon:</p>
+            <div class="button-container"> 
+                
+                    <div class="rock">
+                        <img class=images src="dither_it_rock (1).png">
+                        <button class="buttons" value="rock"id="rock">rock</button>
+                    </div>
+                    <div class="paper">
+                        <img class="images" src="dither_it_paper.png">    
+                        <button class="buttons" value="paper"id="paper">paper</button>
+                    </div>
+                    <div class="scissors">
+                        <img class ="images" src="dither_it_scissors.png">
+                        <button class="buttons"value="scissors" id="scissors">scissors</button>
+                    </div>
+                    
+                </div>
+                <br>
+                <div class="new-round">
+                    <button id='newround'>New Round</button>
+                    <button class="start">New Game</button>
+                </div>
+            </div>    
+           
+    <script src="rps.js"></script>        
 </body>
 </html>
